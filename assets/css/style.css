@@ -1,0 +1,36 @@
+table, th, td{
+    border: 2px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+caption{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+tr:nth-child(even){
+    background: rgb(1, 235, 252);
+}
+
+tbody:nth-child(3){
+    background: rgb(4, 106, 146);
+   
+}
+
+thead{
+    background: rgb(0, 48, 0);
+    color: white;
+}
+
+tfoot{
+    background: grey;
+}
+
+td:nth-child(even){
+    background: rgb(1, 235, 252);
+}
+
+tr:nth-child(even)>td:nth-child(even){
+    background: white;
+}
